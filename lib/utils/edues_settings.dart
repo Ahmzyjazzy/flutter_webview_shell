@@ -4,7 +4,7 @@ class Edues {
   static const String app_name = "eDues";
   static const int app_version_code = 1;
   static const Color app_color = Color(0xFF348018);
-  static const app_url = "https://swiftledger.com/edues/";
+  static const app_url = "https://swiftledger.com/eduesdemo/";
 
   //* Images
   static String app_logo = "assets/images/edues-logo.png";
