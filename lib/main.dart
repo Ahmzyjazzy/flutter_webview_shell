@@ -30,29 +30,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: Edues.app_name,
+      title: Setting.app_name,
       debugShowCheckedModeBanner: false,
-      home: isfirstLaunch ? IntroScreen() : WebScreen(url: Edues.app_url),
+      home: isfirstLaunch ? IntroScreen() : WebScreen(url: Setting.app_url),
       routes: routes,
     );
   }
 }
 
-//class MyApp extends StatelessWidget {
-//  @override
-//  Widget build(BuildContext context) {
-//    return MultiBlocProvider(
-//      providers: [
-//        BlocProvider<WebBloc>(
-//          create: (context) => WebBloc()..add(CheckConnection()),
-//        ),
-//      ],
-//      child: MaterialApp(
-//        title: Edues.app_name,
-//        debugShowCheckedModeBanner: false,
-//        home: isfirstLaunch ? IntroScreen() : WebScreen(url: Edues.app_url),
-//        routes: routes,
-//      ),
-//    );
-//  }
-//}

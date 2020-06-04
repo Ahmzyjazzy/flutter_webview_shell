@@ -1,4 +1,4 @@
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/settings.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +23,7 @@ class PrivacyTerms extends StatelessWidget {
                 TextSpan(
                   text: 'Privacy',
                   style: TextStyle(
-                    color: Edues.app_color,
+                    color: Setting.app_color,
                   ),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
@@ -36,7 +36,7 @@ class PrivacyTerms extends StatelessWidget {
                 ),
                 TextSpan(
                   text: 'Terms of Use',
-                  style: TextStyle(color: Edues.app_color),
+                  style: TextStyle(color: Setting.app_color),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
                       // navigate to desired screen

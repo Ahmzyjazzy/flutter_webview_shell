@@ -1,4 +1,4 @@
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/settings.dart';
 import 'package:flutter/material.dart';
 
 class ButtonOutline extends StatelessWidget {
@@ -45,7 +45,7 @@ class ButtonOutline extends StatelessWidget {
                             fontSize: 15.0,
                             color: textColor != null
                                 ? textColor
-                                : Edues.app_color,
+                                : Setting.app_color,
                           ),
                         ),
                       ),
@@ -56,10 +56,10 @@ class ButtonOutline extends StatelessWidget {
             : Text(
                 label,
                 textAlign: TextAlign.center,
-                style: TextStyle(color: Edues.app_color, fontSize: 15.0),
+                style: TextStyle(color: Setting.app_color, fontSize: 15.0),
               ),
         borderSide: BorderSide(
-          color: Edues.app_color, //Color of the border
+          color: Setting.app_color, //Color of the border
           style: BorderStyle.solid, //Style of the border
           width: 0.8, //width of the border
         ),

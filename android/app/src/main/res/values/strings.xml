@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="asset_statements" translatable="false">
+        [{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://qaapps.cio.ny.gov/apps/sandbox/james/hesc/checklist.html\",\n  }\n},{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://qaapps.cio.ny.gov/apps/sandbox/james/hesc/advisor.html\",\n  }\n}]
+    </string>
+</resources>

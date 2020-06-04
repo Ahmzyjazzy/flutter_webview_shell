@@ -1,4 +1,4 @@
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/settings.dart';
 import 'package:flutter/material.dart';
 
 class HeaderText extends StatelessWidget {
@@ -11,7 +11,7 @@ class HeaderText extends StatelessWidget {
     return Container(
       alignment: Alignment.center,
       child: Text(
-        Edues.app_name,
+        Setting.app_name,
         style: TextStyle(
             color: Color(0xFF4D4D4D),
             fontSize: 30.0,

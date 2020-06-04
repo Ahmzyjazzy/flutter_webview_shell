@@ -1,4 +1,4 @@
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/settings.dart';
 import 'package:flutter/material.dart';
 
 class ButtonSolid extends StatelessWidget {
@@ -20,7 +20,7 @@ class ButtonSolid extends StatelessWidget {
     return MaterialButton(
       minWidth: width == null ? MediaQuery.of(context).size.width : width,
       padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-      color: Edues.app_color,
+      color: Setting.app_color,
       onPressed: onPressed,
       child: buttonIcon != null
           ? Container(

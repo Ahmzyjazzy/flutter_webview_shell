@@ -1,3 +1,3 @@
-export 'edues_settings.dart';
+export 'settings.dart';
 export 'storage_util.dart';
 export 'swift.dart';
