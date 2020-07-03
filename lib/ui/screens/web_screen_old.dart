@@ -2,7 +2,7 @@
 //import 'dart:ui';
 //
 //import 'package:app_shell/blocs/web/web_bloc.dart';
-//import 'package:app_shell/utils/edues_settings.dart';
+//import 'package:app_shell/utils/elotto_settings.dart';
 //import 'package:app_shell/utils/swift.dart';
 //import 'package:connectivity/connectivity.dart';
 //import 'package:flutter/material.dart';

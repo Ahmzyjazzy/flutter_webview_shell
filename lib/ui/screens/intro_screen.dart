@@ -1,5 +1,5 @@
 import 'package:app_shell/ui/screens/screens.dart';
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/elotto_settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:app_shell/ui/widgets/button_outline.dart';
@@ -77,7 +77,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     flex: 2,
                     child: ParallaxContainer(
                       child: Image.asset(
-                        Edues.intro_images[info.index],
+                        Elotto.intro_images[info.index],
                         fit: BoxFit.contain,
                         height: 150,
                       ),
@@ -91,7 +91,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     child: Column(
                       children: <Widget>[
                         Text(
-                          Edues.intro_titles[_slideIndex],
+                          Elotto.intro_titles[_slideIndex],
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 20.0,
@@ -99,7 +99,7 @@ class _IntroScreenState extends State<IntroScreen> {
                           ),
                         ),
                         Text(
-                          Edues.intro_descriptions[_slideIndex],
+                          Elotto.intro_descriptions[_slideIndex],
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: Colors.black,
@@ -157,7 +157,7 @@ class _IntroScreenState extends State<IntroScreen> {
                                 context,
                                 new MaterialPageRoute(
                                     builder: (context) =>
-                                        WebScreen(url: Edues.app_url)));
+                                        WebScreen(url: Elotto.app_url)));
                           },
                         ),
                       ),
@@ -187,7 +187,7 @@ class Indicator extends StatelessWidget {
       height: 5.0,
       margin: EdgeInsets.symmetric(horizontal: 3.0),
       decoration: BoxDecoration(
-        color: active ? Edues.app_color : Color.fromRGBO(158, 158, 158, 0.52),
+        color: active ? Elotto.app_color : Color.fromRGBO(158, 158, 158, 0.52),
         borderRadius: BorderRadius.circular(10.0),
       ),
     );

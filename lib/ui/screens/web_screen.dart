@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:ui';
 
-import 'package:app_shell/utils/edues_settings.dart';
+import 'package:app_shell/utils/elotto_settings.dart';
 import 'package:app_shell/utils/swift.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +63,7 @@ class _WebScreenState extends State<WebScreen> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
-      statusBarColor: Edues.app_color,
+      statusBarColor: Elotto.app_color,
     ));
 
     _initConnectivity();
@@ -304,7 +304,7 @@ class _WebScreenState extends State<WebScreen> with WidgetsBindingObserver {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             SpinKitDoubleBounce(
-                              color: Edues.app_color,
+                              color: Elotto.app_color,
                               size: 50.0,
                             ),
                             SizedBox(
@@ -350,7 +350,7 @@ class _WebScreenState extends State<WebScreen> with WidgetsBindingObserver {
               Text(
                 'Something went wrong:-(',
                 style: TextStyle(
-                  color: Edues.app_color,
+                  color: Elotto.app_color,
                   fontSize: 16.0,
                   fontWeight: FontWeight.bold,
                 ),
