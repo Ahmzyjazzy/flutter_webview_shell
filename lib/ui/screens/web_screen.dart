@@ -311,7 +311,7 @@ class _WebScreenState extends State<WebScreen> with WidgetsBindingObserver {
                               height: 20.0,
                             ),
                             Text(
-                              'Prepairing application, please wait...${(_progress * 100).toInt()}%',
+                              'Preparing application, please wait...${(_progress * 100).toInt()}%',
                               style: TextStyle(color: Color(0xFF222222)),
                             ),
                           ],
